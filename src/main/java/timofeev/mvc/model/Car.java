@@ -6,7 +6,8 @@ public class Car {
     private String series;
     private String color;
 
-    public Car() {}
+    public Car() {
+    }
 
     public Car(String model, String series, String color) {
         this.model = model;
@@ -18,23 +19,15 @@ public class Car {
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
 
     public String getSeries() {
         return series;
     }
 
-    public void setSeries(String series) {
-        this.series = series;
-    }
 
     public String getColor() {
         return color;
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
+
 }
